@@ -145,7 +145,7 @@ OVERALL_WINNER: [A or B or Tie]
 [2-3 sentences of clear, actionable advice]
 ''';
 
-  static const String _apiKey = 'AIzaSyDXk__PgvKlA7exvqs9LccJ6xgudoEM9dQ';
+  static const String _apiKey = '';
 
   Future<DecisionAnalysis> analyzeDecision(String question) async {
     final url = Uri.parse('$_baseUrl?key=$_apiKey');
